@@ -37,7 +37,7 @@ public class ApplePicker : MonoBehaviour
 
         if (basketList.Count == 0)
         {
-            SceneManager.LoadScene("Scene0");
+            SceneManager.LoadScene("GameOver");
         }
     }
 }
